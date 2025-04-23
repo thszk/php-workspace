@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export USERID=$(id -u)
+
+docker-compose up --build -d

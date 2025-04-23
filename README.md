@@ -42,7 +42,7 @@ Essa estrutura proporciona uma experiência semelhante ao XAMPP, mas com a flexi
 Para iniciar o ambiente de desenvolvimento execute o comando na raiz do workspace:
 
 ```
-docker-compose up -d
+./start
 ```
 
 
@@ -50,5 +50,5 @@ Para iniciar o ambiente de desenvolvimento execute o comando na raiz do workspac
 
 
 ```
-docker-compose down
+./stop
 ```

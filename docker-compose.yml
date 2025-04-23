@@ -9,7 +9,11 @@ services:
     volumes:
       - "mysqldata:/var/lib/mysql"
   webserver:
-    build: .webserver
+    build:
+      context: .webserver
+      args:
+        USERNAME: $USER
+        USERID: $USERID
     ports:
       - "80:80"
     volumes:
