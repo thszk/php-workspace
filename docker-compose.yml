@@ -6,6 +6,7 @@ services:
       - "3306:3306"
     environment:
       - "MYSQL_ROOT_PASSWORD=12345678"
+      - "TZ=America/Campo_Grande"
     volumes:
       - "mysqldata:/var/lib/mysql"
   webserver:
